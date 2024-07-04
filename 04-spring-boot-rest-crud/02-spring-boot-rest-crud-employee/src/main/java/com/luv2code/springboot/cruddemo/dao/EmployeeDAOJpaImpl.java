@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class EmployeeDAOJpaImpl implements EmployeeDAO{
+public class EmployeeDAOJpaImpl  implements EmployeeDAO{
 
     // define field for entity manager
     private EntityManager entityManager;
@@ -34,7 +34,7 @@ public class EmployeeDAOJpaImpl implements EmployeeDAO{
     }
 
     @Override
-    public Employee findAll(int theId) {
+    public Employee findById(int theId) {
 
         //get employee
         Employee theEmployee = entityManager.find(Employee.class, theId);
