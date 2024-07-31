@@ -16,4 +16,6 @@ public interface AppDAO {
 
     @Transactional
     void deleteInstructor(int theId);
+
+    void deleteInstructorDetailById(int theId);
 }
