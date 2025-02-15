@@ -1,10 +1,10 @@
-🌱 Spring Boot Application
+# 🌱 Spring Boot Application
 
 This repository contains a Spring Boot application that demonstrates the development of a RESTful API with Java.
 
 
 
-🚀 Features
+## 🚀 Features
 
 🏗️ RESTful API using Spring Boot
 
@@ -16,7 +16,7 @@ This repository contains a Spring Boot application that demonstrates the develop
 
 📊 API Documentation using Swagger
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Backend: Spring Boot, Spring MVC, Spring Data JPA
 
@@ -30,7 +30,7 @@ Build Tool: Maven / Gradle
 
 Containerization (Optional): Docker
 
-📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -58,9 +58,9 @@ Containerization (Optional): Docker
 
 │── README.md            # Documentation
 
-🚀 Installation & Setup
+## 🚀 Installation & Setup
 
-1️⃣ Clone the repository
+### 1️⃣ Clone the repository
 
 
 
@@ -68,7 +68,7 @@ git clone https://github.com/abhinav744/Spring-Boot.git
 
 cd Spring-Boot
 
-2️⃣ Configure Database
+### 2️⃣ Configure Database
 
 Modify src/main/resources/application.properties with your database credentials:
 
@@ -82,7 +82,7 @@ spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
 
-3️⃣ Build and Run the Application
+### 3️⃣ Build and Run the Application
 
 
 
@@ -94,7 +94,7 @@ The application should now be running at http://localhost:8080/.
 
 
 
-🔧 API Endpoints
+## 🔧 API Endpoints
 
 Method	Endpoint	Description
 
@@ -108,7 +108,7 @@ PUT	/api/items/{id}	Update an item
 
 DELETE	/api/items/{id}	Delete an item
 
-📌 Contributing
+## 📌 Contributing
 
 Contributions are welcome! Feel free to:
 
