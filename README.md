@@ -22,13 +22,10 @@ Backend: Spring Boot, Spring MVC, Spring Data JPA
 
 Database: MySQL / PostgreSQL / MongoDB (Specify your DB)
 
-Security (Optional): Spring Security, JWT
 
-API Documentation (Optional): Swagger
 
 Build Tool: Maven / Gradle
 
-Containerization (Optional): Docker
 
 ## 📁 Project Structure
 
