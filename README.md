@@ -10,19 +10,13 @@ This repository contains a Spring Boot application that demonstrates the develop
 
 🔄 CRUD operations with Spring Data JPA
 
-💾 Database integration with MySQL / PostgreSQL / MongoDB
-
-🔐 Authentication with JWT / Spring Security (if implemented)
+🔐 Authentication with Spring Security
 
 📊 API Documentation using Swagger
 
 ## 🛠 Tech Stack
 
 Backend: Spring Boot, Spring MVC, Spring Data JPA
-
-Database: MySQL / PostgreSQL / MongoDB (Specify your DB)
-
-
 
 Build Tool: Maven / Gradle
 
